@@ -1,0 +1,18 @@
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-image-container {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 8px 8px 0 0;
+  display: grid;
+  height: 225px;
+  place-content: center;
+  width: calc(100% - 2px);
+}
